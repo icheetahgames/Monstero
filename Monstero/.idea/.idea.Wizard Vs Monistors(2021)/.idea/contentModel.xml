@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AG\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Wizard Vs Monistors(2021).-1046359433.00" t="ExcludeRecursive" />
+    <e p="D:\Unity Projects\Wizard Vs Monistors(2021)" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Extrernal Assets" t="Include">
+          <e p="Asset for showing FPS and othr Info" t="Include">
+            <e p="Graphy - Ultimate Stats Monitor" t="Include">
+              <e p="Changelog.txt" t="Include" />
+              <e p="Font" t="Include">
+                <e p="Northwest-Bold" t="Include">
+                  <e p="ERIC-TIRADO-NORTHWEST-LICENSE.txt" t="Include" />
+                </e>
+                <e p="Roboto" t="Include">
+                  <e p="LICENSE.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scene" t="Include">
+                <e p="Color Picker" t="Include">
+                  <e p="G_CUIColorPicker.cs" t="Include" />
+                </e>
+                <e p="Customization Scripts" t="Include">
+                  <e p="CustomizeGraphy.cs" t="Include" />
+                  <e p="ForceSliderToMultipleOf3.cs" t="Include" />
+                  <e p="ForceSliderToPowerOf2.cs" t="Include" />
+                  <e p="UpdateTextWithSliderValue.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Advanced" t="Include">
+                  <e p="G_AdvancedData.cs" t="Include" />
+                </e>
+                <e p="Audio" t="Include">
+                  <e p="G_AudioGraph.cs" t="Include" />
+                  <e p="G_AudioManager.cs" t="Include" />
+                  <e p="G_AudioMonitor.cs" t="Include" />
+                  <e p="G_AudioText.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="GraphyDebuggerEditor.cs" t="Include" />
+                  <e p="GraphyManagerEditor.cs" t="Include" />
+                </e>
+                <e p="Fps" t="Include">
+                  <e p="G_FpsGraph.cs" t="Include" />
+                  <e p="G_FpsManager.cs" t="Include" />
+                  <e p="G_FpsMonitor.cs" t="Include" />
+                  <e p="G_FpsText.cs" t="Include" />
+                </e>
+                <e p="Graph" t="Include">
+                  <e p="G_Graph.cs" t="Include" />
+                </e>
+                <e p="GraphyDebugger.cs" t="Include" />
+                <e p="GraphyManager.cs" t="Include" />
+                <e p="Ram" t="Include">
+                  <e p="G_RamGraph.cs" t="Include" />
+                  <e p="G_RamManager.cs" t="Include" />
+                  <e p="G_RamMonitor.cs" t="Include" />
+                  <e p="G_RamText.cs" t="Include" />
+                </e>
+                <e p="Shader" t="Include">
+                  <e p="G_GraphShader.cs" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="IModifiableState.cs" t="Include" />
+                  <e p="IMovable.cs" t="Include" />
+                </e>
+                <e p="Util" t="Include">
+                  <e p="G_ExtensionMethods.cs" t="Include" />
+                  <e p="G_FloatString.cs" t="Include" />
+                  <e p="G_Intstring.cs" t="Include" />
+                  <e p="G_Singleton.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="GraphMobile.shader" t="Include" />
+                <e p="GraphStandard.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="BitGem" t="Include">
+            <e p="skeleton_mage" t="Include">
+              <e p="animations" t="Include">
+                <e p="skeleton_mage_animation_list.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UI Controls packages" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Wizard Vs Monistors" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Enemy" t="Include">
+              <e p="Arrow.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyAttack.cs" t="Include" />
+              <e p="EnemyHealth.cs" t="Include" />
+              <e p="MicroDragonAttack.cs" t="Include" />
+              <e p="RangerAttack.cs" t="Include" />
+            </e>
+            <e p="GameManager.cs" t="Include" />
+            <e p="GeneralMovementAttack.cs" t="Include" />
+            <e p="Player" t="Include">
+              <e p="FireBall.cs" t="Include" />
+              <e p="PlayerAttack.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+              <e p="PlayerHealth.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CameraFollow.cs" t="Include" />
+              <e p="HealthBarBillBoard.cs" t="Include" />
+              <e p="JoystickMovement.cs" t="Include" />
+              <e p="TouchJoystick.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Wizard Vs Monistors(2021).sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &594622534139447424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097367616710508253}
+  m_Layer: 0
+  m_Name: SpotLinker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097367616710508253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594622534139447424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1356163898108474992}
+  - {fileID: 2816090423358780597}
+  m_Father: {fileID: 5085238869982862807}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &754142695850692111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1356163898108474992}
+  m_Layer: 0
+  m_Name: Spot 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1356163898108474992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754142695850692111}
+  m_LocalRotation: {x: -0, y: 0.9594748, z: -0, w: 0.28179455}
+  m_LocalPosition: {x: 0.66, y: 1.01, z: -3.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1097367616710508253}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5705921433162950349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5085238869982862807}
+  m_Layer: 0
+  m_Name: MonsterPlant Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5085238869982862807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5705921433162950349}
+  m_LocalRotation: {x: 0, y: -0.95947397, z: 0, w: 0.28179735}
+  m_LocalPosition: {x: -7.63, y: 1.083, z: 20.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4669668113634027366}
+  - {fileID: 1097367616710508253}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -147.265, z: 0}
+--- !u!1 &8914742211652578560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2816090423358780597}
+  m_Layer: 0
+  m_Name: Spot 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2816090423358780597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8914742211652578560}
+  m_LocalRotation: {x: -0, y: 0.9594748, z: -0, w: 0.28179455}
+  m_LocalPosition: {x: -4.82, y: 1.01, z: 2.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1097367616710508253}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4666529253462053116
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5085238869982862807}
+    m_Modifications:
+    - target: {fileID: 104151745, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: AttackSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 645066621, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_Name
+      value: Spot 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618574005888820, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_Name
+      value: 'MonsterPlant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618574005888820, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -147.265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146529051065749461, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146529051065749461, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 337250167821156615, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
+      propertyPath: Spots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1356163898108474992}
+    - target: {fileID: 337250167821156615, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
+      propertyPath: Spots.Array.data[1]
+      value: 
+      objectReference: {fileID: 2816090423358780597}
+    - target: {fileID: 4661345248770875533, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
+      propertyPath: _deathRedGemsNumber
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30443ab5b6a78ea4899ca1d13e2e8e76, type: 3}
+--- !u!4 &4669668113634027366 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4268068898142106, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+    type: 3}
+  m_PrefabInstance: {fileID: 4666529253462053116}
+  m_PrefabAsset: {fileID: 0}

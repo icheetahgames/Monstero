@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Wizard Vs Monistors(2021) Fast.iml
+# Datasource local storage ignored files
+/../../../../../../:\Wizard Vs Monistor\Wizard Vs Monistors(2021) Fast\.idea\.idea.Wizard Vs Monistors(2021) Fast\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

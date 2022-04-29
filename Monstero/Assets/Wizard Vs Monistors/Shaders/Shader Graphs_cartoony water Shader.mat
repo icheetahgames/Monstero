@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_cartoony water Shader
+  m_Shader: {fileID: -6465566751694194690, guid: 462c10c5c2066c049b3a06c951339d91,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_669198FC: 4
+    - Vector1_6C594211: 7
+    - Vector1_84A8FFFE: 0.01
+    - Vector1_D3165E2A: 1
+    - Vector1_EDB13D3F: 3
+    m_Colors:
+    - Color_693B5418: {r: 0.27144888, g: 0.6187779, b: 0.9433962, a: 0}
+    - Color_74F934F: {r: 0.05807226, g: 0.8207547, b: 0.7971416, a: 0}
+  m_BuildTextureStacks: []

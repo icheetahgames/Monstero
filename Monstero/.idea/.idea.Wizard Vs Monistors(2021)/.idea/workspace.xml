@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2590c7e1-c685-4260-871a-278ce8c6efdb" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="EnemyAttack.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyAttack.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="97" column="24" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="24" />
+              <folding>
+                <marker date="1612392829929" expanded="false" signature="6:100" ph="..." />
+                <marker date="1612392829929" expanded="true" signature="150:3697" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="167:206" ph="Public Variables" />
+                <marker date="1612392829929" expanded="false" signature="306:514" ph="SerializeField variables" />
+                <marker date="1612392829929" expanded="false" signature="613:760" ph="Cashed variables(components)" />
+                <marker date="1612392829929" expanded="false" signature="859:1142" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1612392829929" expanded="false" signature="1245:1295" ph="Getters &amp; Setters functions" />
+                <marker date="1612392829929" expanded="true" signature="1421:1809" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="1428:1678" ph="Cahsed Variables Definition" />
+                <marker date="1612392829929" expanded="true" signature="1810:1947" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612392829929" expanded="true" signature="1965:2053" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="2194:2534" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="2335:2460" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="2473:2528" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="2658:2912" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="2725:2844" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3059:3174" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3113:3168" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3319:3435" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3373:3429" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3579:3695" ph="{...}" />
+                <marker date="1612392829929" expanded="true" signature="3633:3689" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerAttack.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="45" column="215" selection-start-line="45" selection-start-column="215" selection-end-line="45" selection-end-column="215" />
+              <folding>
+                <marker date="1612913493908" expanded="false" signature="6:92" ph="..." />
+                <marker date="1612913493908" expanded="true" signature="143:8652" ph="{...}" />
+                <marker date="1612913493908" expanded="false" signature="150:189" ph="Public Variables" />
+                <marker date="1612913493908" expanded="false" signature="293:506" ph="SerializeField variables" />
+                <marker date="1612913493908" expanded="false" signature="609:660" ph="Cashed variables(components)" />
+                <marker date="1612913493908" expanded="false" signature="763:1143" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1612913493908" expanded="false" signature="1246:1296" ph="Getters &amp; Setters functions" />
+                <marker date="1612913493908" expanded="true" signature="1420:1536" ph="{...}" />
+                <marker date="1612913493908" expanded="false" signature="1435:1530" ph="Cahsed Variables Definition" />
+                <marker date="1612913493908" expanded="true" signature="1661:2611" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="1901:2091" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="1998:2081" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2189:2532" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2240:2296" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2338:2395" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2447:2508" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2744:2790" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="2917:3469" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="3104:3350" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="3363:3453" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="3606:3822" ph="{...}" />
+                <marker date="1612913493908" expanded="false" signature="3931:4057" ph="variables reated to next function" />
+                <marker date="1612913493908" expanded="true" signature="4111:4476" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="4179:4461" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="4636:5115" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="4690:5073" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="4980:5062" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="5242:5291" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="5450:5512" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="5634:5682" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="5832:5881" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="6027:6758" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="6134:6752" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="6218:6742" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="6768:7330" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612913493908" expanded="true" signature="7331:7384" ph="/* The next code is for Instatiating a soilder ... */" />
+                <marker date="1612913493908" expanded="true" signature="7385:8119" ph="/* void FireSoldier() ... */" />
+                <marker date="1612913493908" expanded="true" signature="8169:8304" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="8255:8298" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="8331:8466" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="8417:8460" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="8502:8643" ph="{...}" />
+                <marker date="1612913493908" expanded="true" signature="8588:8637" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralMovementAttack.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <marker date="1612649523735" expanded="false" signature="6:92" ph="..." />
+                <marker date="1612649523735" expanded="true" signature="144:1553" ph="{...}" />
+                <marker date="1612649523735" expanded="true" signature="304:568" ph="{...}" />
+                <marker date="1612649523735" expanded="true" signature="569:775" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612649523735" expanded="true" signature="780:953" ph="variables reated to next function" />
+                <marker date="1612649523735" expanded="true" signature="1015:1446" ph="{...}" />
+                <marker date="1612649523735" expanded="true" signature="1161:1380" ph="{...}" />
+                <marker date="1612649523735" expanded="true" signature="1281:1370" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerHealth.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+              <folding>
+                <marker date="1612734161399" expanded="false" signature="6:185" ph="..." />
+                <marker date="1612734161399" expanded="true" signature="228:3524" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="235:271" ph="/* This code is clean ... */" />
+                <marker date="1612734161399" expanded="false" signature="276:315" ph="Public Variables" />
+                <marker date="1612734161399" expanded="false" signature="415:624" ph="SerializeField variables" />
+                <marker date="1612734161399" expanded="false" signature="727:778" ph="Cashed variables(components)" />
+                <marker date="1612734161399" expanded="false" signature="877:1146" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1612734161399" expanded="false" signature="1249:1299" ph="Getters &amp; Setters functions" />
+                <marker date="1612734161399" expanded="true" signature="1424:1477" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="1602:1987" ph="{...}" />
+                <marker date="1612734161399" expanded="false" signature="1618:1863" ph="Cahsed Variables Definition" />
+                <marker date="1612734161399" expanded="true" signature="1988:2126" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612734161399" expanded="true" signature="2144:2173" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2297:2343" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2496:2767" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2577:2761" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2668:2751" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2886:3267" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="2965:3177" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="3192:3238" ph="{...}" />
+                <marker date="1612734161399" expanded="true" signature="3389:3522" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1611958003542" expanded="false" signature="6:100" ph="..." />
+                <marker date="1611958003542" expanded="true" signature="147:6152" ph="{...}" />
+                <marker date="1611958003542" expanded="false" signature="323:362" ph="Public Variables" />
+                <marker date="1611958003542" expanded="false" signature="470:683" ph="SerializeField variables" />
+                <marker date="1611958003542" expanded="false" signature="790:923" ph="Cashed variables(components)" />
+                <marker date="1611958003542" expanded="false" signature="1030:1253" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1611958003542" expanded="false" signature="1360:1410" ph="Getters &amp; Setters functions" />
+                <marker date="1611958003542" expanded="true" signature="1538:1643" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="1648:1799" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1611958003542" expanded="true" signature="1816:2056" ph="{...}" />
+                <marker date="1611958003542" expanded="false" signature="1831:2000" ph="Cahsed Variables Definition" />
+                <marker date="1611958003542" expanded="true" signature="2061:2198" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1611958003542" expanded="true" signature="2216:2259" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="2390:6150" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="2663:2780" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="2793:2912" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="2999:3379" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="3285:3366" ph="{...}" />
+                <marker date="1611958003542" expanded="true" signature="3557:3665" ph="/* joyVec is always between 0 and 1(x, y, 0) ... */" />
+                <marker date="1611958003542" expanded="true" signature="5814:6068" ph="/* if (GameManager.Instance.nextStage) ... */" />
+                <marker date="1611958003542" expanded="true" signature="6130:6144" ph="/* } ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RangerAttack.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/RangerAttack.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <marker date="1612393073494" expanded="false" signature="6:100" ph="..." />
+                <marker date="1612393073494" expanded="true" signature="151:4332" ph="{...}" />
+                <marker date="1612393073494" expanded="false" signature="173:212" ph="Public Variables" />
+                <marker date="1612393073494" expanded="false" signature="316:521" ph="SerializeField variables" />
+                <marker date="1612393073494" expanded="true" signature="624:734" ph="Cashed variables(components)" />
+                <marker date="1612393073494" expanded="true" signature="837:1170" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1612393073494" expanded="false" signature="1273:1323" ph="Getters &amp; Setters functions" />
+                <marker date="1612393073494" expanded="true" signature="1449:1866" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="1464:1658" ph="Cahsed Variables Definition" />
+                <marker date="1612393073494" expanded="true" signature="1867:2005" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612393073494" expanded="true" signature="2023:2072" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="2207:2664" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="2349:2525" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="2538:2658" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="2789:3051" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="2857:2983" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="3181:4224" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="3198:3467" ph="/* GameObject newArrow = Instantiate(arrow) as GameObject; ... */" />
+                <marker date="1612393073494" expanded="true" signature="3574:4208" ph="{...}" />
+                <marker date="1612393073494" expanded="true" signature="3662:4194" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FireBall.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/FireBall.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <marker date="1612393314853" expanded="false" signature="6:78" ph="..." />
+                <marker date="1612393314853" expanded="true" signature="118:856" ph="{...}" />
+                <marker date="1612393314853" expanded="true" signature="173:271" ph="{...}" />
+                <marker date="1612393314853" expanded="true" signature="403:448" ph="{...}" />
+                <marker date="1612393314853" expanded="true" signature="576:659" ph="{...}" />
+                <marker date="1612393314853" expanded="true" signature="809:854" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrow.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Arrow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <marker date="1612306028113" expanded="false" signature="6:78" ph="..." />
+                <marker date="1612306028113" expanded="true" signature="114:868" ph="{...}" />
+                <marker date="1612306028113" expanded="true" signature="168:269" ph="{...}" />
+                <marker date="1612306028113" expanded="true" signature="399:448" ph="{...}" />
+                <marker date="1612306028113" expanded="true" signature="577:666" ph="{...}" />
+                <marker date="1612306028113" expanded="true" signature="817:866" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyHealth.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+              <folding>
+                <marker date="1612649201889" expanded="false" signature="6:122" ph="..." />
+                <marker date="1612649201889" expanded="true" signature="164:3108" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="841:1508" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="1566:1795" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="1684:1789" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="1844:2107" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="1923:2101" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="1978:2091" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="2127:2547" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="2163:2301" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="2370:2531" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="2569:2908" ph="{...}" />
+                <marker date="1612649201889" expanded="true" signature="2939:3106" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="90" column="104" selection-start-line="90" selection-start-column="104" selection-end-line="90" selection-end-column="104" />
+              <folding>
+                <marker date="1612482472662" expanded="false" signature="6:100" ph="..." />
+                <marker date="1612482472662" expanded="true" signature="142:8749" ph="{...}" />
+                <marker date="1612482472662" expanded="false" signature="158:316" ph="Public Variables" />
+                <marker date="1612482472662" expanded="false" signature="429:2404" ph="SerializeField variables" />
+                <marker date="1612482472662" expanded="false" signature="2512:2746" ph="UI variables" />
+                <marker date="1612482472662" expanded="false" signature="2860:3073" ph="Getters &amp; Setters functions" />
+                <marker date="1612482472662" expanded="true" signature="3079:3807" ph="Class Variables(private-Only related to this class)" />
+                <marker date="1612482472662" expanded="true" signature="3935:4162" ph="{...}" />
+                <marker date="1612482472662" expanded="false" signature="3950:4155" ph="Singleton" />
+                <marker date="1612482472662" expanded="true" signature="4282:4521" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="4579:4591" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="4757:4808" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="4865:4919" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="4969:5010" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="5058:5105" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="5115:5225" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1612482472662" expanded="true" signature="5448:5484" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="5486:5767" ph="/* public void KilledBot(Transform bot) ... */" />
+                <marker date="1612482472662" expanded="true" signature="5811:5886" ph="/* function for checking the game over state ... */" />
+                <marker date="1612482472662" expanded="true" signature="5886:6090" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="5919:5969" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="5982:6084" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="6195:6267" ph="/* next method is used to apply object pooling for ranger ... */" />
+                <marker date="1612482472662" expanded="true" signature="6491:6918" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="6648:6912" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="7027:7104" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+                <marker date="1612482472662" expanded="true" signature="7346:7766" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="7514:7760" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="7875:7952" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+                <marker date="1612482472662" expanded="true" signature="8204:8643" ph="{...}" />
+                <marker date="1612482472662" expanded="true" signature="8378:8637" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bia</find>
+      <find>move</find>
+      <find>#</find>
+      <find>_touchJoystickSpeedMultiplier</find>
+      <find>IsAlive</find>
+      <find>bias</find>
+      <find>JoyVec</find>
+      <find>anim</find>
+      <find>camera</find>
+      <find>arrow</find>
+      <find>gameOver</find>
+      <find>_healthSlider</find>
+      <find>print</find>
+      <find>gameover</find>
+      <find>_arrowTothrow</find>
+      <find>_enemiesInRangeList</find>
+      <find>time</find>
+      <find>EnableUnActiveBulletThenFireBullet</find>
+      <find>_baseVFXInstantiated</find>
+      <find>isAlive</find>
+      <find>EnemyStartAttack</find>
+      <find>public</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/FireBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/RangerAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://I:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/MicroDragonAttack.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/RangerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/FireBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Wizard Vs Monistors(2021)" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2590c7e1-c685-4260-871a-278ce8c6efdb" name="Default" comment="" />
+      <created>1611009344767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611009344767</updated>
+      <workItem from="1611009346413" duration="1427000" />
+      <workItem from="1611182016971" duration="1878000" />
+      <workItem from="1611267749980" duration="3207000" />
+      <workItem from="1611319685638" duration="880000" />
+      <workItem from="1611698187474" duration="1083000" />
+      <workItem from="1611755653948" duration="2914000" />
+      <workItem from="1611789826384" duration="195000" />
+      <workItem from="1611825695050" duration="2416000" />
+      <workItem from="1611831073239" duration="868000" />
+      <workItem from="1611955802364" duration="2418000" />
+      <workItem from="1612136125807" duration="2429000" />
+      <workItem from="1612298847540" duration="5705000" />
+      <workItem from="1612388297873" duration="2824000" />
+      <workItem from="1612392728871" duration="588000" />
+      <workItem from="1612482038677" duration="1084000" />
+      <workItem from="1612548456998" duration="1894000" />
+      <workItem from="1612648729698" duration="1780000" />
+      <workItem from="1612733696841" duration="1179000" />
+      <workItem from="1612828845524" duration="318000" />
+      <workItem from="1612881652447" duration="2096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37183000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1659506" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32975295" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/MicroDragonAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="152" column="23" lean-forward="true" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+          <folding>
+            <marker date="1612482472662" expanded="false" signature="6:100" ph="..." />
+            <marker date="1612482472662" expanded="true" signature="142:8749" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="158:316" ph="Public Variables" />
+            <marker date="1612482472662" expanded="false" signature="429:2404" ph="SerializeField variables" />
+            <marker date="1612482472662" expanded="false" signature="2512:2746" ph="UI variables" />
+            <marker date="1612482472662" expanded="false" signature="2860:3073" ph="Getters &amp; Setters functions" />
+            <marker date="1612482472662" expanded="true" signature="3079:3807" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612482472662" expanded="true" signature="3935:4162" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="3950:4155" ph="Singleton" />
+            <marker date="1612482472662" expanded="true" signature="4282:4521" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4579:4591" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4757:4808" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4865:4919" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4969:5010" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5058:5105" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5115:5225" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612482472662" expanded="true" signature="5448:5484" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5486:5767" ph="/* public void KilledBot(Transform bot) ... */" />
+            <marker date="1612482472662" expanded="true" signature="5811:5886" ph="/* function for checking the game over state ... */" />
+            <marker date="1612482472662" expanded="true" signature="5886:6090" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5919:5969" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5982:6084" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6195:6267" ph="/* next method is used to apply object pooling for ranger ... */" />
+            <marker date="1612482472662" expanded="true" signature="6491:6918" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6648:6912" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7027:7104" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="7346:7766" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7514:7760" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7875:7952" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="8204:8643" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="8378:8637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1612649523735" expanded="false" signature="6:92" ph="..." />
+            <marker date="1612649523735" expanded="true" signature="144:1553" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="304:568" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="569:775" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612649523735" expanded="true" signature="780:953" ph="variables reated to next function" />
+            <marker date="1612649523735" expanded="true" signature="1015:1446" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1161:1380" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1281:1370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1612734161399" expanded="false" signature="6:185" ph="..." />
+            <marker date="1612734161399" expanded="true" signature="228:3524" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="235:271" ph="/* This code is clean ... */" />
+            <marker date="1612734161399" expanded="false" signature="276:315" ph="Public Variables" />
+            <marker date="1612734161399" expanded="false" signature="415:624" ph="SerializeField variables" />
+            <marker date="1612734161399" expanded="false" signature="727:778" ph="Cashed variables(components)" />
+            <marker date="1612734161399" expanded="false" signature="877:1146" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612734161399" expanded="false" signature="1249:1299" ph="Getters &amp; Setters functions" />
+            <marker date="1612734161399" expanded="true" signature="1424:1477" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="1602:1987" ph="{...}" />
+            <marker date="1612734161399" expanded="false" signature="1618:1863" ph="Cahsed Variables Definition" />
+            <marker date="1612734161399" expanded="true" signature="1988:2126" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612734161399" expanded="true" signature="2144:2173" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2297:2343" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2496:2767" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2577:2761" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2668:2751" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2886:3267" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2965:3177" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3192:3238" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3389:3522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding>
+            <marker date="1612734161399" expanded="false" signature="6:185" ph="..." />
+            <marker date="1612734161399" expanded="true" signature="228:3524" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="235:271" ph="/* This code is clean ... */" />
+            <marker date="1612734161399" expanded="false" signature="276:315" ph="Public Variables" />
+            <marker date="1612734161399" expanded="false" signature="415:624" ph="SerializeField variables" />
+            <marker date="1612734161399" expanded="false" signature="727:778" ph="Cashed variables(components)" />
+            <marker date="1612734161399" expanded="false" signature="877:1146" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612734161399" expanded="false" signature="1249:1299" ph="Getters &amp; Setters functions" />
+            <marker date="1612734161399" expanded="true" signature="1424:1477" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="1602:1987" ph="{...}" />
+            <marker date="1612734161399" expanded="false" signature="1618:1863" ph="Cahsed Variables Definition" />
+            <marker date="1612734161399" expanded="true" signature="1988:2126" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612734161399" expanded="true" signature="2144:2173" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2297:2343" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2496:2767" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2577:2761" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2668:2751" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2886:3267" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2965:3177" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3192:3238" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3389:3522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <marker date="1612482472662" expanded="false" signature="6:100" ph="..." />
+            <marker date="1612482472662" expanded="true" signature="142:8749" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="158:316" ph="Public Variables" />
+            <marker date="1612482472662" expanded="false" signature="429:2404" ph="SerializeField variables" />
+            <marker date="1612482472662" expanded="false" signature="2512:2746" ph="UI variables" />
+            <marker date="1612482472662" expanded="false" signature="2860:3073" ph="Getters &amp; Setters functions" />
+            <marker date="1612482472662" expanded="true" signature="3079:3807" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612482472662" expanded="true" signature="3935:4162" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="3950:4155" ph="Singleton" />
+            <marker date="1612482472662" expanded="true" signature="4282:4521" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4579:4591" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4757:4808" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4865:4919" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4969:5010" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5058:5105" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5115:5225" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612482472662" expanded="true" signature="5448:5484" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5486:5767" ph="/* public void KilledBot(Transform bot) ... */" />
+            <marker date="1612482472662" expanded="true" signature="5811:5886" ph="/* function for checking the game over state ... */" />
+            <marker date="1612482472662" expanded="true" signature="5886:6090" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5919:5969" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5982:6084" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6195:6267" ph="/* next method is used to apply object pooling for ranger ... */" />
+            <marker date="1612482472662" expanded="true" signature="6491:6918" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6648:6912" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7027:7104" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="7346:7766" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7514:7760" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7875:7952" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="8204:8643" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="8378:8637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1612649523735" expanded="false" signature="6:92" ph="..." />
+            <marker date="1612649523735" expanded="true" signature="144:1553" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="304:568" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="569:775" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612649523735" expanded="true" signature="780:953" ph="variables reated to next function" />
+            <marker date="1612649523735" expanded="true" signature="1015:1446" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1161:1380" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1281:1370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyAttack.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts(new)/Enemy/EnemyHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts(new)/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="134" column="59" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/CameraFollow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/CameraFollow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts(new)/Enemy/EnemyHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts(new)/GameManager.cs" />
+    <entry file="file://I:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/TouchJoystick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="141" column="118" selection-start-line="141" selection-start-column="118" selection-end-line="141" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/JoystickMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="133" column="33" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/UI/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/RangerAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <marker date="1612393073494" expanded="false" signature="6:100" ph="..." />
+            <marker date="1612393073494" expanded="true" signature="151:4332" ph="{...}" />
+            <marker date="1612393073494" expanded="false" signature="173:212" ph="Public Variables" />
+            <marker date="1612393073494" expanded="false" signature="316:521" ph="SerializeField variables" />
+            <marker date="1612393073494" expanded="true" signature="624:734" ph="Cashed variables(components)" />
+            <marker date="1612393073494" expanded="true" signature="837:1170" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612393073494" expanded="false" signature="1273:1323" ph="Getters &amp; Setters functions" />
+            <marker date="1612393073494" expanded="true" signature="1449:1866" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="1464:1658" ph="Cahsed Variables Definition" />
+            <marker date="1612393073494" expanded="true" signature="1867:2005" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612393073494" expanded="true" signature="2023:2072" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="2207:2664" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="2349:2525" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="2538:2658" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="2789:3051" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="2857:2983" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="3181:4224" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="3198:3467" ph="/* GameObject newArrow = Instantiate(arrow) as GameObject; ... */" />
+            <marker date="1612393073494" expanded="true" signature="3574:4208" ph="{...}" />
+            <marker date="1612393073494" expanded="true" signature="3662:4194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/FireBall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <marker date="1612393314853" expanded="false" signature="6:78" ph="..." />
+            <marker date="1612393314853" expanded="true" signature="118:856" ph="{...}" />
+            <marker date="1612393314853" expanded="true" signature="173:271" ph="{...}" />
+            <marker date="1612393314853" expanded="true" signature="403:448" ph="{...}" />
+            <marker date="1612393314853" expanded="true" signature="576:659" ph="{...}" />
+            <marker date="1612393314853" expanded="true" signature="809:854" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="90" column="104" selection-start-line="90" selection-start-column="104" selection-end-line="90" selection-end-column="104" />
+          <folding>
+            <marker date="1612482472662" expanded="false" signature="6:100" ph="..." />
+            <marker date="1612482472662" expanded="true" signature="142:8749" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="158:316" ph="Public Variables" />
+            <marker date="1612482472662" expanded="false" signature="429:2404" ph="SerializeField variables" />
+            <marker date="1612482472662" expanded="false" signature="2512:2746" ph="UI variables" />
+            <marker date="1612482472662" expanded="false" signature="2860:3073" ph="Getters &amp; Setters functions" />
+            <marker date="1612482472662" expanded="true" signature="3079:3807" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612482472662" expanded="true" signature="3935:4162" ph="{...}" />
+            <marker date="1612482472662" expanded="false" signature="3950:4155" ph="Singleton" />
+            <marker date="1612482472662" expanded="true" signature="4282:4521" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4579:4591" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4757:4808" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4865:4919" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="4969:5010" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5058:5105" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5115:5225" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612482472662" expanded="true" signature="5448:5484" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5486:5767" ph="/* public void KilledBot(Transform bot) ... */" />
+            <marker date="1612482472662" expanded="true" signature="5811:5886" ph="/* function for checking the game over state ... */" />
+            <marker date="1612482472662" expanded="true" signature="5886:6090" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5919:5969" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="5982:6084" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6195:6267" ph="/* next method is used to apply object pooling for ranger ... */" />
+            <marker date="1612482472662" expanded="true" signature="6491:6918" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="6648:6912" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7027:7104" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="7346:7766" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7514:7760" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="7875:7952" ph="/* next method is used to apply object pooling for MicroDragon ... */" />
+            <marker date="1612482472662" expanded="true" signature="8204:8643" ph="{...}" />
+            <marker date="1612482472662" expanded="true" signature="8378:8637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1611958003542" expanded="false" signature="6:100" ph="..." />
+            <marker date="1611958003542" expanded="true" signature="147:6152" ph="{...}" />
+            <marker date="1611958003542" expanded="false" signature="323:362" ph="Public Variables" />
+            <marker date="1611958003542" expanded="false" signature="470:683" ph="SerializeField variables" />
+            <marker date="1611958003542" expanded="false" signature="790:923" ph="Cashed variables(components)" />
+            <marker date="1611958003542" expanded="false" signature="1030:1253" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1611958003542" expanded="false" signature="1360:1410" ph="Getters &amp; Setters functions" />
+            <marker date="1611958003542" expanded="true" signature="1538:1643" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="1648:1799" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1611958003542" expanded="true" signature="1816:2056" ph="{...}" />
+            <marker date="1611958003542" expanded="false" signature="1831:2000" ph="Cahsed Variables Definition" />
+            <marker date="1611958003542" expanded="true" signature="2061:2198" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1611958003542" expanded="true" signature="2216:2259" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="2390:6150" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="2663:2780" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="2793:2912" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="2999:3379" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="3285:3366" ph="{...}" />
+            <marker date="1611958003542" expanded="true" signature="3557:3665" ph="/* joyVec is always between 0 and 1(x, y, 0) ... */" />
+            <marker date="1611958003542" expanded="true" signature="5814:6068" ph="/* if (GameManager.Instance.nextStage) ... */" />
+            <marker date="1611958003542" expanded="true" signature="6130:6144" ph="/* } ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <marker date="1612649201889" expanded="false" signature="6:122" ph="..." />
+            <marker date="1612649201889" expanded="true" signature="164:3108" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="841:1508" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="1566:1795" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="1684:1789" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="1844:2107" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="1923:2101" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="1978:2091" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="2127:2547" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="2163:2301" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="2370:2531" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="2569:2908" ph="{...}" />
+            <marker date="1612649201889" expanded="true" signature="2939:3106" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GeneralMovementAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <marker date="1612649523735" expanded="false" signature="6:92" ph="..." />
+            <marker date="1612649523735" expanded="true" signature="144:1553" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="304:568" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="569:775" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612649523735" expanded="true" signature="780:953" ph="variables reated to next function" />
+            <marker date="1612649523735" expanded="true" signature="1015:1446" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1161:1380" ph="{...}" />
+            <marker date="1612649523735" expanded="true" signature="1281:1370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+          <folding>
+            <marker date="1612734161399" expanded="false" signature="6:185" ph="..." />
+            <marker date="1612734161399" expanded="true" signature="228:3524" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="235:271" ph="/* This code is clean ... */" />
+            <marker date="1612734161399" expanded="false" signature="276:315" ph="Public Variables" />
+            <marker date="1612734161399" expanded="false" signature="415:624" ph="SerializeField variables" />
+            <marker date="1612734161399" expanded="false" signature="727:778" ph="Cashed variables(components)" />
+            <marker date="1612734161399" expanded="false" signature="877:1146" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612734161399" expanded="false" signature="1249:1299" ph="Getters &amp; Setters functions" />
+            <marker date="1612734161399" expanded="true" signature="1424:1477" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="1602:1987" ph="{...}" />
+            <marker date="1612734161399" expanded="false" signature="1618:1863" ph="Cahsed Variables Definition" />
+            <marker date="1612734161399" expanded="true" signature="1988:2126" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612734161399" expanded="true" signature="2144:2173" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2297:2343" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2496:2767" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2577:2761" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2668:2751" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2886:3267" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="2965:3177" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3192:3238" ph="{...}" />
+            <marker date="1612734161399" expanded="true" signature="3389:3522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/Arrow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1612306028113" expanded="false" signature="6:78" ph="..." />
+            <marker date="1612306028113" expanded="true" signature="114:868" ph="{...}" />
+            <marker date="1612306028113" expanded="true" signature="168:269" ph="{...}" />
+            <marker date="1612306028113" expanded="true" signature="399:448" ph="{...}" />
+            <marker date="1612306028113" expanded="true" signature="577:666" ph="{...}" />
+            <marker date="1612306028113" expanded="true" signature="817:866" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Enemy/EnemyAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="24" />
+          <folding>
+            <marker date="1612392829929" expanded="false" signature="6:100" ph="..." />
+            <marker date="1612392829929" expanded="true" signature="150:3697" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="167:206" ph="Public Variables" />
+            <marker date="1612392829929" expanded="false" signature="306:514" ph="SerializeField variables" />
+            <marker date="1612392829929" expanded="false" signature="613:760" ph="Cashed variables(components)" />
+            <marker date="1612392829929" expanded="false" signature="859:1142" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612392829929" expanded="false" signature="1245:1295" ph="Getters &amp; Setters functions" />
+            <marker date="1612392829929" expanded="true" signature="1421:1809" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="1428:1678" ph="Cahsed Variables Definition" />
+            <marker date="1612392829929" expanded="true" signature="1810:1947" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612392829929" expanded="true" signature="1965:2053" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="2194:2534" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="2335:2460" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="2473:2528" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="2658:2912" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="2725:2844" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3059:3174" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3113:3168" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3319:3435" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3373:3429" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3579:3695" ph="{...}" />
+            <marker date="1612392829929" expanded="true" signature="3633:3689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" column="215" selection-start-line="45" selection-start-column="215" selection-end-line="45" selection-end-column="215" />
+          <folding>
+            <marker date="1612913493908" expanded="false" signature="6:92" ph="..." />
+            <marker date="1612913493908" expanded="true" signature="143:8652" ph="{...}" />
+            <marker date="1612913493908" expanded="false" signature="150:189" ph="Public Variables" />
+            <marker date="1612913493908" expanded="false" signature="293:506" ph="SerializeField variables" />
+            <marker date="1612913493908" expanded="false" signature="609:660" ph="Cashed variables(components)" />
+            <marker date="1612913493908" expanded="false" signature="763:1143" ph="Class Variables(private-Only related to this class)" />
+            <marker date="1612913493908" expanded="false" signature="1246:1296" ph="Getters &amp; Setters functions" />
+            <marker date="1612913493908" expanded="true" signature="1420:1536" ph="{...}" />
+            <marker date="1612913493908" expanded="false" signature="1435:1530" ph="Cahsed Variables Definition" />
+            <marker date="1612913493908" expanded="true" signature="1661:2611" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="1901:2091" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="1998:2081" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2189:2532" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2240:2296" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2338:2395" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2447:2508" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2744:2790" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="2917:3469" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="3104:3350" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="3363:3453" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="3606:3822" ph="{...}" />
+            <marker date="1612913493908" expanded="false" signature="3931:4057" ph="variables reated to next function" />
+            <marker date="1612913493908" expanded="true" signature="4111:4476" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="4179:4461" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="4636:5115" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="4690:5073" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="4980:5062" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="5242:5291" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="5450:5512" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="5634:5682" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="5832:5881" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="6027:6758" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="6134:6752" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="6218:6742" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="6768:7330" ph="/* ----------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1612913493908" expanded="true" signature="7331:7384" ph="/* The next code is for Instatiating a soilder ... */" />
+            <marker date="1612913493908" expanded="true" signature="7385:8119" ph="/* void FireSoldier() ... */" />
+            <marker date="1612913493908" expanded="true" signature="8169:8304" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="8255:8298" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="8331:8466" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="8417:8460" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="8502:8643" ph="{...}" />
+            <marker date="1612913493908" expanded="true" signature="8588:8637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

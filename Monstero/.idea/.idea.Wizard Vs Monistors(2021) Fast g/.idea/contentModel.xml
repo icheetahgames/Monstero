@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AG\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AG\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Wizard Vs Monistors(2021) Fast g.-1028929300.00" t="ExcludeRecursive" />
+    <e p="I:\Wizard Vs monstors 2021 with GitG\Wizard Vs monstors 2021 with Git\Wizard Vs Monistors(2021) Fast g" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Extrernal Assets" t="Include">
+          <e p="Asset for showing FPS and othr Info" t="Include">
+            <e p="Graphy - Ultimate Stats Monitor" t="Include">
+              <e p="Changelog.txt" t="Include" />
+              <e p="Font" t="Include">
+                <e p="Northwest-Bold" t="Include">
+                  <e p="ERIC-TIRADO-NORTHWEST-LICENSE.txt" t="Include" />
+                </e>
+                <e p="Roboto" t="Include">
+                  <e p="LICENSE.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scene" t="Include">
+                <e p="Color Picker" t="Include">
+                  <e p="G_CUIColorPicker.cs" t="Include" />
+                </e>
+                <e p="Customization Scripts" t="Include">
+                  <e p="CustomizeGraphy.cs" t="Include" />
+                  <e p="ForceSliderToMultipleOf3.cs" t="Include" />
+                  <e p="ForceSliderToPowerOf2.cs" t="Include" />
+                  <e p="UpdateTextWithSliderValue.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Advanced" t="Include">
+                  <e p="G_AdvancedData.cs" t="Include" />
+                </e>
+                <e p="Audio" t="Include">
+                  <e p="G_AudioGraph.cs" t="Include" />
+                  <e p="G_AudioManager.cs" t="Include" />
+                  <e p="G_AudioMonitor.cs" t="Include" />
+                  <e p="G_AudioText.cs" t="Include" />
+                </e>
+                <e p="Fps" t="Include">
+                  <e p="G_FpsGraph.cs" t="Include" />
+                  <e p="G_FpsManager.cs" t="Include" />
+                  <e p="G_FpsMonitor.cs" t="Include" />
+                  <e p="G_FpsText.cs" t="Include" />
+                </e>
+                <e p="Graph" t="Include">
+                  <e p="G_Graph.cs" t="Include" />
+                </e>
+                <e p="GraphyDebugger.cs" t="Include" />
+                <e p="GraphyManager.cs" t="Include" />
+                <e p="Ram" t="Include">
+                  <e p="G_RamGraph.cs" t="Include" />
+                  <e p="G_RamManager.cs" t="Include" />
+                  <e p="G_RamMonitor.cs" t="Include" />
+                  <e p="G_RamText.cs" t="Include" />
+                </e>
+                <e p="Shader" t="Include">
+                  <e p="G_GraphShader.cs" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="IModifiableState.cs" t="Include" />
+                  <e p="IMovable.cs" t="Include" />
+                </e>
+                <e p="Util" t="Include">
+                  <e p="G_ExtensionMethods.cs" t="Include" />
+                  <e p="G_FloatString.cs" t="Include" />
+                  <e p="G_Intstring.cs" t="Include" />
+                  <e p="G_Singleton.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="GraphMobile.shader" t="Include" />
+                <e p="GraphStandard.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="BitGem" t="Include">
+            <e p="skeleton_mage" t="Include">
+              <e p="animations" t="Include">
+                <e p="skeleton_mage_animation_list.txt" t="Include" />
+              </e>
+            </e>
+            <e p="StylisedWater" t="Include">
+              <e p="URP" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BitGem" t="Include">
+                    <e p="Core" t="Include">
+                      <e p="FlagEnumAttribute.cs" t="Include" />
+                    </e>
+                    <e p="VFX" t="Include">
+                      <e p="StylisedWater" t="Include">
+                        <e p="WaterVolumeBase.cs" t="Include" />
+                        <e p="WaterVolumeBox.cs" t="Include" />
+                        <e p="WaterVolumeHelper.cs" t="Include" />
+                        <e p="WaterVolumeTransforms.cs" t="Include" />
+                        <e p="WateverVolumeFloater.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Free" t="Include">
+            <e p="Mobile Game Icon Pack — Mobile Icons for Any Games" t="Include">
+              <e p="Mobile Game Icon Pack" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="Font_Read_Me.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Publisher" t="Include">
+                <e p="Publisher Window" t="Include">
+                  <e p="Inspector Info" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="PublisherReadme.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="MagicArsenal" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MagicButtonScript.cs" t="Include" />
+                <e p="MagicDragMouseOrbit.cs" t="Include" />
+                <e p="MagicFireProjectile.cs" t="Include" />
+                <e p="MagicLoadSceneOnClick.cs" t="Include" />
+                <e p="MagicLoopScript.cs" t="Include" />
+                <e p="MagicProjectileScript.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Effects" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MagicBeamScript.cs" t="Include" />
+                <e p="MagicLightFade.cs" t="Include" />
+                <e p="MagicRotation.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MagicArsenal - ReadMe.txt" t="Include" />
+          </e>
+          <e p="Polytope Studio" t="Include">
+            <e p="Lowpoly Medieval Demos" t="Include">
+              <e p="Environment_Free" t="Include">
+                <e p="MouseLook.cs" t="Include" />
+                <e p="PlayerMovement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Lowpoly Medieval Environments" t="Include">
+              <e p="Sources" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="PT_Rock_Shader.shader" t="Include" />
+                  <e p="PT_Rock_Shader_VS.shader" t="Include" />
+                  <e p="PT_Vegetation_Flowers_Shader.shader" t="Include" />
+                  <e p="PT_Vegetation_Flowers_Shader_VS.shader" t="Include" />
+                  <e p="PT_Vegetation_Foliage_Shader.shader" t="Include" />
+                  <e p="PT_Vegetation_Foliage_Shader_VS.shader" t="Include" />
+                  <e p="PT_Vegetation_Opaque_Shader.shader" t="Include" />
+                  <e p="PT_Vegetation_Opaque_Shader_VS.shader" t="Include" />
+                  <e p="PT_Vegetation_Plants_Shader.shader" t="Include" />
+                  <e p="PT_Vegetation_Plants_Shader_VS.shader" t="Include" />
+                  <e p="PT_Water_Shader.shader" t="Include" />
+                  <e p="VS_indirect.cginc" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="RPG Monster Wave Polyart" t="Include">
+            <e p="SRP" t="Include">
+              <e p="HowToTestSRPs.txt" t="Include" />
+            </e>
+          </e>
+          <e p="UI Controls packages" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TakeHitBehaviour.cs" t="Include" />
+        <e p="Wizard Vs Monistors" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AdsManager.cs" t="Include" />
+            <e p="Bots" t="Include">
+              <e p="BotHealth.cs" t="Include" />
+              <e p="MicroDragon" t="Include">
+                <e p="DragonBotMovementAndShot.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Enemy" t="Include">
+              <e p="Arrow.cs" t="Include" />
+              <e p="CannonHealth.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyAttack.cs" t="Include" />
+              <e p="EnemyHealth.cs" t="Include" />
+              <e p="MicroDragonAttack.cs" t="Include" />
+              <e p="RangerAttack.cs" t="Include" />
+            </e>
+            <e p="FSM" t="Include">
+              <e p="Bots" t="Include">
+                <e p="BotAttackBehaviour.cs" t="Include" />
+                <e p="BotCommonMethods.cs" t="Include" />
+                <e p="BotFollowEnemiesBehaviour.cs" t="Include" />
+                <e p="BotFollowingBehaviour.cs" t="Include" />
+                <e p="BotIdleBehaviour.cs" t="Include" />
+              </e>
+              <e p="Enemies" t="Include">
+                <e p="AttackBehaviour.cs" t="Include" />
+                <e p="AttackEventsFromBehaviour.cs" t="Include" />
+                <e p="AttackSpecification.cs" t="Include" />
+                <e p="FollowBehaviour.cs" t="Include" />
+                <e p="FollowBehaviourPlantBoss.cs" t="Include" />
+                <e p="IdleBehaviour.cs" t="Include" />
+                <e p="PatrolBehaviour.cs" t="Include" />
+                <e p="PlantBossSecondAbility.cs" t="Include" />
+                <e p="SpotsLinker.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GameManager.cs" t="Include" />
+            <e p="GeneralMovementAttack.cs" t="Include" />
+            <e p="HealthGem.cs" t="Include" />
+            <e p="Logo Scene Scripts" t="Include">
+              <e p="LogoScene.cs" t="Include" />
+            </e>
+            <e p="Managements" t="Include">
+              <e p="CameraStagesManager.cs" t="Include" />
+              <e p="EnemiesCounter.cs" t="Include" />
+              <e p="Healer.cs" t="Include" />
+              <e p="LevelManager.cs" t="Include" />
+              <e p="NextLevelPortal.cs" t="Include" />
+              <e p="PortalManager.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="AdjustedMajicProjectile.cs" t="Include" />
+              <e p="FireBall.cs" t="Include" />
+              <e p="player bot" t="Include">
+                <e p="PlayerBotAttack.cs" t="Include" />
+                <e p="PlayerBotHealth.cs" t="Include" />
+              </e>
+              <e p="PlayerAttack.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+              <e p="PlayerData.cs" t="Include" />
+              <e p="PlayerHealth.cs" t="Include" />
+              <e p="PlayerWeaponStatus.cs" t="Include" />
+            </e>
+            <e p="PowerUPs" t="Include">
+              <e p="Coin.cs" t="Include" />
+              <e p="RedGem.cs" t="Include" />
+            </e>
+            <e p="Stages Manger" t="Include">
+              <e p="Level.cs" t="Include" />
+              <e p="LevelsManager.cs" t="Include" />
+              <e p="RoomConditon.cs" t="Include" />
+              <e p="StageMGN.cs" t="Include" />
+            </e>
+            <e p="SystemSave.cs" t="Include" />
+            <e p="Traps" t="Include">
+              <e p="Hammer.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
+              <e p="Spinning.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CameraFollow.cs" t="Include" />
+              <e p="HealthBarBillBoard.cs" t="Include" />
+              <e p="JoystickMovement.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+              <e p="TouchJoystick.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Wizard Vs Monistors(2021) Fast g.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
