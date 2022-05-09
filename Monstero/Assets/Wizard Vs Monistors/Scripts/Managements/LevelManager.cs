@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,7 @@ private GameObject _portal;
         _nextStagePortal = transform.Find("Level/Stationary Portions/Portal group/Next Stage Portal").gameObject;
         _nextStagePortal.SetActive(false);
     }
+    
 
     // Update is called once per frame
     void Update()

@@ -52,7 +52,7 @@ public class PlayerHealth : MonoBehaviour
 
         //GameManager.Instance.Player = this.gameObject;
         
-        GameObject.DontDestroyOnLoad(this.gameObject);
+        //GameObject.DontDestroyOnLoad(this.gameObject);
         
 #region Cahsed Variables Definition
         _anim = GetComponent<Animator>();

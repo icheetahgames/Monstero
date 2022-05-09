@@ -27,12 +27,12 @@ public class GameManager : MonoBehaviour
         set => player = value;
     }
 
-    [SerializeField] private GameObject _playerTrialer;
+    [SerializeField] private GameObject _PlayerTrailer;
 
-    public GameObject PlayerTrialer
+    public GameObject PlayerTrailer
     {
-        get => _playerTrialer;
-        set => _playerTrialer = value;
+        get => _PlayerTrailer;
+        set => _PlayerTrailer = value;
     }
 
     [SerializeField] private GameObject _cameras;
@@ -156,6 +156,8 @@ public class GameManager : MonoBehaviour
     private float _spawnTimer = 0f;
 
     private Animator _levelTransitionAnimator;
+
+    public Animator LevelTransitionAnimator => _levelTransitionAnimator;
     private bool isClearRoom = false; public bool IsClearRoom{get => isClearRoom;set => isClearRoom = value;} // This variable used to make bots follow player after killing all enemies
     private bool _nextLevel;
 
@@ -232,6 +234,19 @@ public class GameManager : MonoBehaviour
 
     #endregion
     //----------------------------------------------------------------------------------------------- 
+
+    #region Trailer Stuff
+
+    private bool _rotateTowardsPlayer;
+
+    public bool RotateTowardsPlayer
+    {
+        get => _rotateTowardsPlayer;
+        set => _rotateTowardsPlayer = value;
+    }
+
+    #endregion
+    //----------------------------------------------------------------------------------------------- 
     private void Awake()
     {
         #region Singleton
@@ -283,12 +298,12 @@ public class GameManager : MonoBehaviour
     void DisableAllEnemies(int level)
     {
         for (int i = 0; i < level; i++)
-        {
+        { // disable levels before the input level in the function paraterms
             print("level disabeld is : " + i);
             transform.Find("/Levels/").GetChild(i).Find("Enemies On The Ground").gameObject.SetActive(false);
-        }
+        } 
         for (int i = level+1; i < transform.Find("/Levels/").childCount; i++)
-        {
+        { // disable levels after the input level in the function paraterms
             print("level disabeld is : " + i);
             transform.Find("/Levels/").GetChild(i).Find("Enemies On The Ground").gameObject.SetActive(false);
         }
@@ -722,6 +737,11 @@ public void RemoveBot(Transform bot)
         _level += 1;
         transform.Find("/Levels/").GetChild(_level).Find("Enemies On The Ground").gameObject.SetActive(true);
         
+    }
+//-----------------------------------------------------------------------------------------------  
+    public void LoadFirstLevelAfterTrailerScene()
+    {
+        StartCoroutine(NextLevelCorotine());
     }
 //-----------------------------------------------------------------------------------------------     
     IEnumerator LoadLevel(int levelIndex)

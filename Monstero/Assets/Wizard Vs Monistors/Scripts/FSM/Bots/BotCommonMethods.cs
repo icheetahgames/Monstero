@@ -171,8 +171,8 @@ public class BotCommonMethods : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
         {
             _anim.Play("Idle");
-            GameManager.Instance.PlayerTrialer.SetActive(true);
-            this.transform.LookAt(GameManager.Instance.PlayerTrialer.transform.position);
+            GameManager.Instance.PlayerTrailer.SetActive(true);
+            this.transform.LookAt(GameManager.Instance.PlayerTrailer.transform.position);
         }
 
     }
