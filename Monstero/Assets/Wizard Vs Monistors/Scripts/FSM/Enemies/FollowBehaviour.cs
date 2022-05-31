@@ -22,10 +22,13 @@ public class FollowBehaviour : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
 
-        if (!GameManager.Instance.GameOver && animator.GetComponent<EnemyHealth>().IsAlive)
+        if (!GameManager.Instance.GameOver 
+            && animator.GetComponent<EnemyHealth>().IsAlive 
+            && GameManager.Instance.Player.activeInHierarchy) // This condition if for ensuring that the player is active to follow it
         {
             animator.GetComponent<NavMeshAgent>().speed = _followSpeed;
             animator.GetComponent<NavMeshAgent>().SetDestination(animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position);
+            animator.GetComponent<SpotsLinker>().RotateTowards(animator ,animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies), 10f);
             
             _distance = Vector2.Distance(new Vector2(animator.transform.position.x, animator.transform.position.z), 
                 new Vector2(animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.x, 

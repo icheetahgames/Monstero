@@ -213,6 +213,11 @@ PrefabInstance:
       objectReference: {fileID: 2816090423358780597}
     - target: {fileID: 4661345248770875533, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
         type: 3}
+      propertyPath: HC
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661345248770875533, guid: 30443ab5b6a78ea4899ca1d13e2e8e76,
+        type: 3}
       propertyPath: _deathRedGemsNumber
       value: 2
       objectReference: {fileID: 0}

@@ -1170,11 +1170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829085250920829135}
   - component: {fileID: 7281057693256809909}
-  - component: {fileID: 1121652707040447634}
   - component: {fileID: 4176223563342852215}
-  - component: {fileID: 1121652707040447633}
-  - component: {fileID: 1121652707040447853}
-  - component: {fileID: 1121652707040447855}
   - component: {fileID: 2317853196077332417}
   m_Layer: 0
   m_Name: wizard Trailer
@@ -1224,24 +1220,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!143 &1121652707040447634
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4457113909751456476}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2.3
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.67, z: 0.09}
 --- !u!82 &4176223563342852215
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1338,61 +1316,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1121652707040447633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4457113909751456476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8af26fb34d5c0ea43a299e5c8950bff9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 5
-  _androidMoveSpeed: 10
-  _text: {fileID: 0}
-  _touchJoystickSpeedMultiplier: 1
-  _audioSource: {fileID: 0}
---- !u!114 &1121652707040447853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4457113909751456476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 271362cc646e23a4bb663b1a1303c1c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _startingHealth: 100
-  _timeSinceLastHit: 0.5
-  _healthSlider: {fileID: 1053444456472495950}
-  _baseVFX: {fileID: 5691200184152964019}
-  _startMagicVFX: {fileID: 2785328109441384023}
-  _healthGemAddPoints: 5
---- !u!114 &1121652707040447855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4457113909751456476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ecc6e6437259d41be875bf229c33c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireLocation: {fileID: 4831369125347942509}
-  _wazard: {fileID: 4714104821678957744, guid: f10ea62d5d841fe45a88fba0eb9258e8, type: 3}
-  _botFireLocation: {fileID: 4831369125347942509}
-  _playerFireLocation: {fileID: 6016123240882883278}
-  _timeBetweenAttacks: 0.3
-  timeThresholdTorotateToNextEnemy: 0.2
-  _bot: {fileID: 5118080638308167176, guid: 306e503c05ecb7244b580494f72762a8, type: 3}
-  _Weapon: {fileID: 100000, guid: df27b7f129aeac1458a8e18f25221ab8, type: 3}
 --- !u!136 &2317853196077332417
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2732,12 +2655,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2785328109455866439}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &2785328109441384023 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 19858448, guid: 61efad8215cd8a2469d3b566dfd8d56d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2785328109455866439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3416899707708899072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2788,12 +2705,12 @@ PrefabInstance:
     - target: {fileID: 4391977782428282012, guid: 3fc66e276e528a54bbde7cb0373ed3af,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4391977782428282012, guid: 3fc66e276e528a54bbde7cb0373ed3af,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4391977782428282012, guid: 3fc66e276e528a54bbde7cb0373ed3af,
         type: 3}
@@ -2952,18 +2869,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc66e276e528a54bbde7cb0373ed3af, type: 3}
---- !u!114 &1053444456472495950 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2447092908201490510, guid: 3fc66e276e528a54bbde7cb0373ed3af,
-    type: 3}
-  m_PrefabInstance: {fileID: 3416899707708899072}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &8654822771440303107 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6302611046544098051, guid: 3fc66e276e528a54bbde7cb0373ed3af,
@@ -3054,12 +2959,6 @@ PrefabInstance:
 --- !u!4 &5691200184172325497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 438552, guid: 9089048cc7e3ba346bf5f57b26df5c5b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5691200184172419937}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &5691200184152964019 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 19865810, guid: 9089048cc7e3ba346bf5f57b26df5c5b,
     type: 3}
   m_PrefabInstance: {fileID: 5691200184172419937}
   m_PrefabAsset: {fileID: 0}

@@ -23,12 +23,17 @@ public class IdleBehaviour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        distance = Vector2.Distance(new Vector2(animator.transform.position.x, animator.transform.position.z), 
-            new Vector2(animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.x, 
-                animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.z));
-        if (distance <= _distanceToFollow)
-        { //Follow Alley
-            animator.SetBool("isFollowing", true);
+        if (GameManager.Instance.Allies.Count > 0)
+        {
+            
+        
+            distance = Vector2.Distance(new Vector2(animator.transform.position.x, animator.transform.position.z), 
+                new Vector2(animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.x, 
+                    animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.z));
+            if (distance <= _distanceToFollow)
+            { //Follow Alley
+                animator.SetBool("isFollowing", true);
+            }
         }
         if (time >= timer)
         { // Move to New patrolling spot is there is no alley and the timer is more than timer
@@ -36,7 +41,7 @@ public class IdleBehaviour : StateMachineBehaviour
             time = 0;
         }
         time += Time.deltaTime;
-    }
+    
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -55,4 +60,5 @@ public class IdleBehaviour : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+    }
 }

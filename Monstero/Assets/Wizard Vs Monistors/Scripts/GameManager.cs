@@ -291,7 +291,10 @@ public class GameManager : MonoBehaviour
         _botEncluser.transform.SetParent(this.transform);
         
         DisableAllEnemies(_level);
-       
+        
+        _botNumberText.text = _availableNumberofBots.ToString();
+        _doublicateNumberText.text = _availableNumberofDoublicated.ToString();
+
     }
 
 //----------------------------------------------------------------------------------------------- 
@@ -453,7 +456,39 @@ public class GameManager : MonoBehaviour
     }*/
     //----------------------------------------------------------------------------------------------- 
     //Bot stufrf
-    [Header("Bots")] [SerializeField] private int _numberOfGemsToInstantiateBot = 10;
+    [Header("Bots")] [SerializeField] private int _availableNumberofBots;
+
+    public int AvailableNumberofBots
+    {
+        get => _availableNumberofBots;
+        set => _availableNumberofBots = value;
+    }
+
+     [SerializeField] private int _availableNumberofDoublicated;
+
+    public int AvailableNumberofDoublicated
+    {
+        get => _availableNumberofDoublicated;
+        set => _availableNumberofDoublicated = value;
+    }
+
+    [SerializeField] private Text _botNumberText; 
+
+    public Text BotNumberText
+    {
+        get => _botNumberText;
+        set => _botNumberText = value;
+    }
+    [SerializeField] private Text _doublicateNumberText;
+
+    public Text DoublicateNumberText
+    {
+        get => _doublicateNumberText;
+        set => _doublicateNumberText = value;
+    }
+
+
+    [SerializeField] private int _numberOfGemsToInstantiateBot = 10;
 
     public int NumberOfGemsToInstantiateBot => _numberOfGemsToInstantiateBot;
     

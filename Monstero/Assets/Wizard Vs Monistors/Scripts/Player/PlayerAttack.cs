@@ -83,7 +83,7 @@ public class PlayerAttack : GeneralMovementAttack
                 //Attack();
             }
 
-            if (Input.GetMouseButton(1))
+            if (Input.GetMouseButton(1) || Input.GetKeyDown(KeyCode.G))
             {
                 FireBot();
             }
@@ -221,6 +221,8 @@ public class PlayerAttack : GeneralMovementAttack
     public void SpawnBot()    // animation Trigger
     {
         EnableUnActiveDragonBot();
+        GameManager.Instance.AvailableNumberofBots -= 1;
+        GameManager.Instance.BotNumberText.text = GameManager.Instance.AvailableNumberofBots.ToString();
     }
     //----------------------------------------------------------------------------------------------- 
     void EnableUnActiveDragonBot()
@@ -239,6 +241,8 @@ public class PlayerAttack : GeneralMovementAttack
         CheckIfAnotherBotPlayerIsInFireLocationPosition();
         GameObject _newPlayer = Instantiate(_wazard, _playerFireLocation.position, this.transform.rotation) as GameObject;
         _newPlayer.SetActive(true);
+        GameManager.Instance.AvailableNumberofDoublicated -= 1;
+        GameManager.Instance.DoublicateNumberText.text = GameManager.Instance.AvailableNumberofDoublicated.ToString();
     }
 //----------------------------------------------------------------------------------------------- 
     void CheckIfAnotherBotPlayerIsInFireLocationPosition()
@@ -344,7 +348,7 @@ public class PlayerAttack : GeneralMovementAttack
     }
     public  void BotFire()
     {
-        if (!GameManager.Instance.GameOver  && !GameManager.Instance.IsWalking)
+        if (!GameManager.Instance.GameOver  && !GameManager.Instance.IsWalking && GameManager.Instance.AvailableNumberofBots > 0)
         {
             FireBot();
             GameManager.Instance.SpawnBot = true;
@@ -361,7 +365,7 @@ public class PlayerAttack : GeneralMovementAttack
     
     public  void PlayerFire()
     {
-        if (!GameManager.Instance.GameOver  && !GameManager.Instance.IsWalking)
+        if (!GameManager.Instance.GameOver  && !GameManager.Instance.IsWalking && GameManager.Instance.AvailableNumberofDoublicated > 0)
         {
             FirePlayer();
             GameManager.Instance.SpawnBot = true;

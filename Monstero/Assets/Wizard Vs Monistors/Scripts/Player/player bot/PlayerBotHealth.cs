@@ -17,7 +17,7 @@ public class PlayerBotHealth : MonoBehaviour
     [SerializeField] private int _startingHealth = 100;
     [SerializeField] private float _timeSinceLastHit = 2f;
     [SerializeField] private Slider _healthSlider;
-    [SerializeField] private ParticleSystem _baseVFX;
+  //  [SerializeField] private ParticleSystem _baseVFX;
 #endregion
 //-----------------------------------------------------------------------------------------------
     #region Cashed variables(components)
@@ -30,7 +30,7 @@ public class PlayerBotHealth : MonoBehaviour
     private Animator _anim;
     //private int _currentHealth;
     private AudioSource _audio;
-    private ParticleSystem _blood;
+    //private ParticleSystem _blood;
     private int _health;
     private bool dissapearPlayerBot = false;
     private bool _iskillPlayerBotApplied = false; // this variable is used to apply bot killing once and when game is over(player is killed) and not apply  KillBot() method each update frame
@@ -57,15 +57,15 @@ public class PlayerBotHealth : MonoBehaviour
         _cC = GetComponent<CharacterController>();
         _capsuleC = GetComponent<CapsuleCollider>();
         _audio = GetComponent<AudioSource>();
-        _blood = GetComponentInChildren<ParticleSystem>(); 
+        //_blood = GetComponentInChildren<ParticleSystem>(); 
 #endregion
         
         _healthSlider.value = _startingHealth;
         _health = _startingHealth;
-        _blood.Stop();
+        //_blood.Stop();
         GameManager.Instance.RegisterAlly(transform);
         GameManager.Instance.RegisterPlayer(this.transform);
-        _baseVFX.Play();
+       // _baseVFX.Play();
         
     }
 //----------------------------------------------------------------------------------------------- 
@@ -121,7 +121,7 @@ public class PlayerBotHealth : MonoBehaviour
         {
             KillPlayer();
         }
-        _blood.Play();
+       // _blood.Play();
     }
 //----------------------------------------------------------------------------------------------- 
 

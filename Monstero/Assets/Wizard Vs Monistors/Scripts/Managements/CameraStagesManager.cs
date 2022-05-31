@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +9,7 @@ public class CameraStagesManager : MonoBehaviour
     [SerializeField] private GameObject _enemiesOnTheGround;
     [SerializeField] private Canvas UI;
     [SerializeField] private float _enemiesRotationSpeedinTrailer = 5;
+    [SerializeField] private GameObject _hand;
     private Animator _anim;
     
     // Start is called before the first frame update
@@ -18,6 +18,7 @@ public class CameraStagesManager : MonoBehaviour
         _anim = GetComponent<Animator>();
         UI.GetComponent<CanvasGroup>().alpha = 0f;
         GameManager.Instance.Player.SetActive(false);
+        _hand.SetActive(false);
         GameManager.Instance.Camera.gameObject.SetActive(false);
     }
 
@@ -55,8 +56,9 @@ public class CameraStagesManager : MonoBehaviour
         GameManager.Instance.Camera.gameObject.SetActive(true);
         
         //LoadNextLevel();
-        yield return new WaitForSeconds(2);
+        //yield return new WaitForSeconds(2);
         this.gameObject.SetActive(false);
+        _hand.SetActive(true);
         GameManager.Instance.Player.SetActive(true);
        // GameManager.Instance.Player.SetActive(true);
         //GameManager.Instance.PlayerTrialer.SetActive(false);

@@ -20,23 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf35d91-5952-479d-aba4-bd47a8b0c548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Ghost_Mobile/_source/Models/micro_ghost_mobile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Ghost_Mobile/_source/Models/micro_ghost_mobile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/TopCamera .controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/TopCamera .controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monstero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monstero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant Master.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant Master.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Game Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Game Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Levels/Level 7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Levels/Level 7.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard Trailer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard Trailer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard bot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard bot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 13 Trailer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 13 Trailer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Bots/BotCommonMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Bots/BotCommonMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/SpotsLinker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/SpotsLinker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/FollowBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/FollowBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/IdleBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/IdleBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/CameraStagesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/CameraStagesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/player bot/PlayerBotHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/player bot/PlayerBotHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,13 @@
       <workItem from="1651827888099" duration="4065000" />
       <workItem from="1652045407246" duration="2224000" />
       <workItem from="1652123661068" duration="6916000" />
+      <workItem from="1652212423851" duration="3420000" />
+      <workItem from="1652304785585" duration="1138000" />
+      <workItem from="1653259720863" duration="1057000" />
+      <workItem from="1653344790079" duration="2468000" />
+      <workItem from="1653638772923" duration="1432000" />
+      <workItem from="1653681640243" duration="2777000" />
+      <workItem from="1654029835482" duration="1113000" />
     </task>
     <servers />
   </component>
