@@ -18,7 +18,6 @@ private GameObject _portal;
             Entry = this.transform.parent.GetChild(this.transform.GetSiblingIndex() + 1).transform.Find("Entry")
                 .gameObject;
         }
-        
         _portal = transform.Find("Level/Stationary Portions/Portal group/Portal").gameObject;
         _nextStagePortal = transform.Find("Level/Stationary Portions/Portal group/Next Stage Portal").gameObject;
         _nextStagePortal.SetActive(false);

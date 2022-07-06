@@ -53,7 +53,7 @@ public class BotIdleBehaviour : StateMachineBehaviour
         //     animator.SetBool("FollowEnemy", false);
         // }
 
-        Debug.Log("_enemiesOnTheGround : " +  animator.transform.Find("/Levels/").GetChild(GameManager.Instance.Level).Find("Enemies On The Ground").childCount );
+//        Debug.Log("_enemiesOnTheGround : " +  animator.transform.Find("/Levels/").GetChild(GameManager.Instance.Level).Find("Enemies On The Ground").childCount );
         if (_enemyDistance < _distanceToFollowEnemy  && !GameManager.Instance.NextLevel && animator.transform.Find("/Levels/").GetChild(GameManager.Instance.Level).Find("Enemies On The Ground").childCount > 0)
         {
             animator.SetBool("FollowEnemy", true);

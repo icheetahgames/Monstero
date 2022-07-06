@@ -261,6 +261,7 @@ MonoBehaviour:
   Spots:
   - {fileID: 750113163763982842}
   - {fileID: 2098373166025701870}
+  Enemy: {fileID: 0}
 --- !u!1001 &3610705822586249595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -284,6 +285,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 846939343103523174, guid: 77caabea0a4a142488f32ad803d26850,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2015364102303625895, guid: 77caabea0a4a142488f32ad803d26850,
         type: 3}
       propertyPath: m_Controller
@@ -298,6 +304,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391977782267070195, guid: 77caabea0a4a142488f32ad803d26850,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -1.4499997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391977782267070195, guid: 77caabea0a4a142488f32ad803d26850,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.42630005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391977782267070195, guid: 77caabea0a4a142488f32ad803d26850,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.09499985
       objectReference: {fileID: 0}
     - target: {fileID: 4839496995349720526, guid: 77caabea0a4a142488f32ad803d26850,
         type: 3}

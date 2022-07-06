@@ -79,8 +79,13 @@ public class GameManager : MonoBehaviour
     
 
     [SerializeField] private Text _lightActive;
-    
 
+    [SerializeField] private RawImage _handTouchGesture; 
+    public RawImage HandTouchGesture
+    {
+        get => _handTouchGesture;
+        set => _handTouchGesture = value;
+    }
     [Header("Misc variables")]
     private float joyStickSensitiviy = 0.01f; public float JoyStickSensitiviy => joyStickSensitiviy;
     [SerializeField] private int finalLevel = 20;
@@ -88,6 +93,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _coin;
     [SerializeField] private GameObject _redGem;
     [SerializeField] private GameObject _healthGem;
+
     #endregion
     //----------------------------------------------------------------------------------------------- 
     #region UI variables
@@ -244,6 +250,8 @@ public class GameManager : MonoBehaviour
         get => _rotateTowardsPlayer;
         set => _rotateTowardsPlayer = value;
     }
+
+    
 
     #endregion
     //----------------------------------------------------------------------------------------------- 
@@ -841,7 +849,7 @@ public void RemoveBot(Transform bot)
     [Header("Bot Instructions")]
     [SerializeField]private Canvas _botInstructionCanvas;
     [SerializeField] private GameObject _pauseBtn;
-    
+    public GameObject BotInstruction; //This canvas used in the trailer 
     private bool _isBotInstructionsShowedBefore = false;
     public void ShowBotInstructions()
     {

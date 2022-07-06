@@ -1427,6 +1427,7 @@ MonoBehaviour:
   Spots:
   - {fileID: 0}
   - {fileID: 0}
+  Enemy: {fileID: 0}
 --- !u!82 &8817912746645310601
 AudioSource:
   m_ObjectHideFlags: 0

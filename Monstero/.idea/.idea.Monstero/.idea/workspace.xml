@@ -21,21 +21,53 @@
   <component name="ChangeListManager">
     <list default="true" id="ecf35d91-5952-479d-aba4-bd47a8b0c548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Monstero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monstero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant Master.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant Master.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Dragon_Mobile/_source/Materials/micro_dragon_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Dragon_Mobile/_source/Materials/micro_dragon_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Dragon_Mobile/_source/Materials/micro_dragon_col.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/BitGem/Micro_Monsters/Dragon_Mobile/_source/Materials/micro_dragon_col.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/arcanebeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/arcanebeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/dirtbeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/dirtbeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/firebeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/firebeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/frostbeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/frostbeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lifebeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lifebeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lightbeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lightbeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lightningbeam2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/lightningbeam2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/shadowbeam2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/shadowbeam2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/stormbeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/stormbeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/waterbeam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Materials/waterbeam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/FirePillarBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/FirePillarBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/FrostPillarBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/FrostPillarBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/StormPillarBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/StormPillarBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/WaterPillarBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/MagicArsenal/Effects/Prefabs/Pillar Blast/WaterPillarBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extrernal Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/Micro Dragon AOC.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/Micro Dragon AOC.overrideController" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/MonsterPlant AC.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Animators/MonsterPlant AC.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Bat Instrucion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Bat Instrucion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Bat for Invoke btn.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Bat for Invoke btn.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/BatMaskTint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/BatMaskTint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Dragon Bot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Dragon Bot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Ghost Master Alley.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Bots/Ghost Master Alley.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Game Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Game Manager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Levels/Level 7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/Levels/Level 7.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard Trailer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard Trailer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard bot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard bot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Prefabs/player/wizard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 0 Trailer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 0 Trailer.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/FollowBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/FollowBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/IdleBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Enemies/IdleBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 12.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Levels/Level 12.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Scene 04(Optimization Trial 2)/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scenes/Scene 04(Optimization Trial 2)/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Bots/BotIdleBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/FSM/Bots/BotIdleBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/CameraStagesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/CameraStagesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/PlayerAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/player bot/PlayerBotHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Player/player bot/PlayerBotHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Managements/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/animations/Pause Menu.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wizard Vs Monistors/animations/Pause Menu.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +78,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/EmptyAnimationEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Wizard Vs Monistors/Scripts/Trailers/TrailerCharacterAttackBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -137,6 +170,24 @@
       <workItem from="1653638772923" duration="1432000" />
       <workItem from="1653681640243" duration="2777000" />
       <workItem from="1654029835482" duration="1113000" />
+      <workItem from="1654114492762" duration="2694000" />
+      <workItem from="1654461176023" duration="2698000" />
+      <workItem from="1654545819240" duration="672000" />
+      <workItem from="1654551021261" duration="597000" />
+      <workItem from="1654636717362" duration="1747000" />
+      <workItem from="1654721595043" duration="1129000" />
+      <workItem from="1654722933262" duration="3511000" />
+      <workItem from="1655495011073" duration="125000" />
+      <workItem from="1655495692352" duration="633000" />
+      <workItem from="1655496450127" duration="1121000" />
+      <workItem from="1655581266282" duration="234000" />
+      <workItem from="1655581610955" duration="439000" />
+      <workItem from="1655609215491" duration="270000" />
+      <workItem from="1655609595489" duration="116000" />
+      <workItem from="1655670356017" duration="2139000" />
+      <workItem from="1655934225697" duration="1343000" />
+      <workItem from="1656186166500" duration="2731000" />
+      <workItem from="1656188972491" duration="419000" />
     </task>
     <servers />
   </component>

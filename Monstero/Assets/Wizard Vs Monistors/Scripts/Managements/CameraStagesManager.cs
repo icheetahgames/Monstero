@@ -10,6 +10,7 @@ public class CameraStagesManager : MonoBehaviour
     [SerializeField] private Canvas UI;
     [SerializeField] private float _enemiesRotationSpeedinTrailer = 5;
     [SerializeField] private GameObject _hand;
+    [SerializeField] private Scene _nextScene;
     private Animator _anim;
     
     // Start is called before the first frame update
@@ -39,32 +40,6 @@ public class CameraStagesManager : MonoBehaviour
 
     }
 
-    IEnumerator EmergePlayerTrailer()
-    {
-        yield return new WaitForSeconds(1);
-        GameManager.Instance.PlayerTrailer.SetActive(true);
-        yield return new WaitForSeconds(0.25f);
-        _anim.SetTrigger("Next"); // to move camera to next postion
-        yield return new WaitForSeconds(3);
-        //UI.SetActive(true);
-        UI.GetComponent<CanvasGroup>().alpha = 1f;
-        yield return new WaitForSeconds(3);
-        GameManager.Instance.LoadFirstLevelAfterTrailerScene();
-        yield return new WaitForSeconds(2);
-        
-        GameManager.Instance.PlayerTrailer.SetActive(false);
-        GameManager.Instance.Camera.gameObject.SetActive(true);
-        
-        //LoadNextLevel();
-        //yield return new WaitForSeconds(2);
-        this.gameObject.SetActive(false);
-        _hand.SetActive(true);
-        GameManager.Instance.Player.SetActive(true);
-       // GameManager.Instance.Player.SetActive(true);
-        //GameManager.Instance.PlayerTrialer.SetActive(false);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-    
     IEnumerator squence()
     {
         yield return new WaitForSeconds(1.5f);
@@ -91,6 +66,33 @@ public class CameraStagesManager : MonoBehaviour
             }
         }
     }
+    
+    IEnumerator EmergePlayerTrailer()
+    {
+        yield return new WaitForSeconds(1);
+        GameManager.Instance.PlayerTrailer.SetActive(true);
+        yield return new WaitForSeconds(0.25f);
+        _anim.SetTrigger("Next"); // to move camera to next postion
+        yield return new WaitForSeconds(3);
+        UI.GetComponent<CanvasGroup>().alpha = 1f;
+        yield return new WaitForSeconds(3);
+        GameManager.Instance.LoadFirstLevelAfterTrailerScene();
+        yield return new WaitForSeconds(2);
+        
+        GameManager.Instance.PlayerTrailer.SetActive(false);
+        GameManager.Instance.Camera.gameObject.SetActive(true);
+        
+        //LoadNextLevel();
+        //yield return new WaitForSeconds(2);
+        this.gameObject.SetActive(false);
+        _hand.SetActive(true);
+        GameManager.Instance.Player.SetActive(true);
+       // GameManager.Instance.Player.SetActive(true);
+        //GameManager.Instance.PlayerTrialer.SetActive(false);
+//        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+    
 
 
     //-----------------------------------------------------------------------------------------------     
