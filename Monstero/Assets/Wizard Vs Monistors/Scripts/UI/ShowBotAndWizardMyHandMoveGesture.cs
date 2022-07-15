@@ -14,6 +14,8 @@ public class ShowBotAndWizardMyHandMoveGesture : MonoBehaviour
     {
         _smoke1.SetActive(false);
         _bot.SetActive(false);
+        _smoke2.SetActive(false);
+        _wizard.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,4 +37,19 @@ public class ShowBotAndWizardMyHandMoveGesture : MonoBehaviour
 
     }
 
-}
+
+        public void ShowClone()
+        {
+            StartCoroutine(ShowCloneSquence());
+        }
+
+        IEnumerator ShowCloneSquence()
+        {
+            _smoke2.SetActive(true);
+            yield return new WaitForSeconds(.25f);
+            _wizard.SetActive(true);
+
+        }
+
+
+    }

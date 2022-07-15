@@ -310,12 +310,12 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < level; i++)
         { // disable levels before the input level in the function paraterms
-            print("level disabeld is : " + i);
+            //print("level disabeld is : " + i);
             transform.Find("/Levels/").GetChild(i).Find("Enemies On The Ground").gameObject.SetActive(false);
         } 
         for (int i = level+1; i < transform.Find("/Levels/").childCount; i++)
         { // disable levels after the input level in the function paraterms
-            print("level disabeld is : " + i);
+            //print("level disabeld is : " + i);
             transform.Find("/Levels/").GetChild(i).Find("Enemies On The Ground").gameObject.SetActive(false);
         }
     }
@@ -863,16 +863,50 @@ public void RemoveBot(Transform bot)
         }
 
     }
-    
+
+    //-----------------------------------------------------------------------------------------------
+    #region  ResumeBotInstruction variables
+    private int _numberOfBootsToBeInvoked = 1;
+
+
+    public int NumberOfBootsToBeInvoked
+    {
+        get { return _numberOfBootsToBeInvoked; }
+        set { _numberOfBootsToBeInvoked = value; }
+    }
+
+    #endregion
     public void ResumeBotInstruction()
-    {        
-        print("Invoke...");
+    {
+        _numberOfBootsToBeInvoked = 5;
+        player.GetComponent<PlayerAttack>().BotFire(); 
         _botInstructionCanvas.gameObject.SetActive(false);
         Time.timeScale =1f; // Return the game to play
         GameManager.Instance.GameIsPaused = false; 
         _pauseBtn.SetActive(true);
     }
-//-----------------------------------------------------------------------------------------------       
+    //-----------------------------------------------------------------------------------------------       
+    #region  ResumeDoublicateInstruction variables
+    private int _numberOfDoublicatesToBeInvoked = 1;
+
+
+    public int NumberOfDoublicatesToBeInvoked
+    {
+        get { return _numberOfDoublicatesToBeInvoked; }
+        set { _numberOfDoublicatesToBeInvoked = value; }
+    }
+
+    #endregion
+    public void ResumeDoublicateInstruction()
+    {
+        _numberOfBootsToBeInvoked = 1;
+        player.GetComponent<PlayerAttack>().PlayerFire();
+        _botInstructionCanvas.gameObject.SetActive(false);
+        Time.timeScale = 1f; // Return the game to play
+        GameManager.Instance.GameIsPaused = false;
+        _pauseBtn.SetActive(true);
+    }
+    //-----------------------------------------------------------------------------------------------    
     [Header("Healer")]
     [SerializeField]private Canvas _healerCanvas;
 

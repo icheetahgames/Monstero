@@ -33,7 +33,7 @@ public class FollowBehaviour : StateMachineBehaviour
             _distance = Vector2.Distance(new Vector2(animator.transform.position.x, animator.transform.position.z), 
                 new Vector2(animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.x, 
                     animator.GetComponent<SpotsLinker>().GetClosestEnemy(animator, GameManager.Instance.Allies).position.z));
-            if (_distance <= _alleyRange)
+            if (_distance <= _alleyRange) //Move to Attack behaviour
             {
                 animator.SetBool("alleyInAttaclRange", true);
             }

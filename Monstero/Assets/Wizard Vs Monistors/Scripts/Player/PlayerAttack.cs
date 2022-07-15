@@ -129,6 +129,7 @@ public class PlayerAttack : GeneralMovementAttack
         {
  //           GameManager.Instance.BaseVfx.gameObject.SetActive(true);
 
+            
             GameManager.Instance.BaseVfx.transform.position = closestEnemy.position;
         }
         // else
@@ -220,9 +221,14 @@ public class PlayerAttack : GeneralMovementAttack
 //----------------------------------------------------------------------------------------------- 
     public void SpawnBot()    // animation Trigger
     {
+        for(int i = 0; i < GameManager.Instance.NumberOfBootsToBeInvoked; i++)
+        {
         EnableUnActiveDragonBot();
         GameManager.Instance.AvailableNumberofBots -= 1;
         GameManager.Instance.BotNumberText.text = GameManager.Instance.AvailableNumberofBots.ToString();
+        }
+
+        GameManager.Instance.NumberOfBootsToBeInvoked = 1;
     }
     //----------------------------------------------------------------------------------------------- 
     void EnableUnActiveDragonBot()
@@ -238,11 +244,15 @@ public class PlayerAttack : GeneralMovementAttack
 //----------------------------------------------------------------------------------------------- 
     public void SpanwPlayer()    // animation Trigger
     {
-        CheckIfAnotherBotPlayerIsInFireLocationPosition();
-        GameObject _newPlayer = Instantiate(_wazard, _playerFireLocation.position, this.transform.rotation) as GameObject;
-        _newPlayer.SetActive(true);
-        GameManager.Instance.AvailableNumberofDoublicated -= 1;
-        GameManager.Instance.DoublicateNumberText.text = GameManager.Instance.AvailableNumberofDoublicated.ToString();
+        for (int i = 0; i < GameManager.Instance.NumberOfDoublicatesToBeInvoked; i++)
+        {
+            CheckIfAnotherBotPlayerIsInFireLocationPosition();
+            GameObject _newPlayer = Instantiate(_wazard, _playerFireLocation.position, this.transform.rotation) as GameObject;
+            _newPlayer.SetActive(true);
+            GameManager.Instance.AvailableNumberofDoublicated -= 1;
+            GameManager.Instance.DoublicateNumberText.text = GameManager.Instance.AvailableNumberofDoublicated.ToString();
+        }
+        GameManager.Instance.NumberOfDoublicatesToBeInvoked = 1;
     }
 //----------------------------------------------------------------------------------------------- 
     void CheckIfAnotherBotPlayerIsInFireLocationPosition()
